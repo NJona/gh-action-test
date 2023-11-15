@@ -29,6 +29,7 @@ jobs:
             password: ${{ secrets.CS_PASSWORD }}
             team: 'My Team'
             plan: 'Free'
+            onDemand: true
             env: |
               ENV=testing
               EMAIL=${{ secrets.CS_EMAIL }}

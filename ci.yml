@@ -1,0 +1,10 @@
+prepare:
+  steps:
+    - name: Test
+      command: echo Test
+test:
+  steps: []
+run:
+  steps:
+    - name: Run
+      command: echo Run
